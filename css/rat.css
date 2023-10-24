@@ -1,0 +1,57 @@
+.topnav {
+  overflow: hidden;
+  background-color: #35495e; 
+}
+
+.topnav a {
+  display: block;
+  padding: 14px 16px;
+  color: #ecf0f1; 
+  text-align: left;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-family: "Arial, sans-serif"; /* Font family changed to Arial or a sans-serif font */
+  font-size: 20px; /* Font size increased */
+}
+
+.topnav li {
+  float: left;
+  background-color: #35495e; /* Background color for list items */
+  width: 100%;
+  overflow: hidden;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav .email-container {
+  float: left;
+}
+
+.topnav input[type="text"] {
+  margin-top: 8px;
+  font-size: 18px; /* Font size for the input field increased */
+  border: 2px solid #ccc; /* Border thickness increased */
+  padding: 10px; /* Padding increased for better input field appearance */
+  color: #333; /* Text color for the input field */
+  background-color: #fff; /* Background color for the input field */
+}
+
+.topnav .email-container button {
+  float: right;
+  padding: 10px; /* Padding for the button increased */
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #2980b9; /* Background color for the button */
+  color: #ecf0f1; /* Text color for the button */
+  font-size: 18px; /* Font size for the button */
+  cursor: pointer;
+  border: 2px solid #2980b9; /* Border color for the button */
+}
+
+.topnav .email-container button:hover {
+  background: #1c4966; /* Button color change on hover */
+}
